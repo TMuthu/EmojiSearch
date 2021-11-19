@@ -1,0 +1,78 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+.emojiheader{
+  width: 100vw;
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emojiheader h1{
+  color:black;
+}
+.SearchLayout{
+  width: 100%;
+  height: 100px;
+}
+#emojiname, #searchbutton{
+  all: unset;
+}
+.SearchLayout form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#emojiname{
+  width: 50%;
+  height: 30%;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 10px;
+}
+#searchbutton{
+  margin-left: 10px;
+  padding: 0 10px 0 10px;
+  height: 30%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.ListLayout1{
+  width: 100%;
+  height: 100%;
+  /* background-color: lightcoral; */
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.EmojiContainer{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 50px;
+}
+.ErrorMsg{
+  text-align: center;
+  color:red;
+  font-size: 30px;
+}
